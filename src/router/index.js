@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/view/helloWorld/HelloWorld'
 import helloworldbody from '@/view/helloWorld/helloworldbody'
 import Work from '@/view/Work/Work'
+import News from '@/view/new/new'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +23,11 @@ export default new Router({
           path: 'Work',
           name: 'Work',
           component: Work
+        },
+        {
+          path: 'News',
+          name: 'News',
+          component: News
         },
     
       ]
